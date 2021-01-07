@@ -1,0 +1,50 @@
+{
+  "menu": [
+    {
+      "url": "/admin",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "icon": "desktop",
+      "tag": "2",
+      "tagcustom": "badge badge-light-danger badge-pill badge-round float-right mr-2"
+    },
+    {
+      "url": "#",
+      "name": "Liste des dates",
+      "i18n": "Liste des dates",
+      "icon": "unlink",
+      "submenu": [
+        {
+          "url": "sk-layout-1-column",
+          "name": "1 column",
+          "i18n": "1 column",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "sk-layout-2-columns",
+          "name": "2 columns",
+          "i18n": "2 columns",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "fixed-navbar",
+          "name": "Fixed navbar",
+          "i18n": "Fixed navbar",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "sk-layout-fixed",
+          "name": "Fixed layout",
+          "i18n": "Fixed layout",
+          "icon": "bx bx-right-arrow-alt"
+        },
+        {
+          "url": "sk-layout-static",
+          "name": "Static layout",
+          "i18n": "Static layout",
+          "icon": "bx bx-right-arrow-alt"
+        }
+      ]
+    }
+  ]
+}
